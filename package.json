@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-course-assignment-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "start": "node /dist/app.js"
+  },
+  "author": "Ken Ng",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
