@@ -6,6 +6,8 @@ import rootDir from './util/path';
 
 const app = express();
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.use(userRouter);
 
 app.get('/', (req: Request, res: Response, next: () => void) => {
